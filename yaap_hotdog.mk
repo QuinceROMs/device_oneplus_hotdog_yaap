@@ -21,9 +21,6 @@ PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := HD1917
 PRODUCT_MANUFACTURER := OnePlus
 
-PRODUCT_SYSTEM_NAME := OnePlus7TPro
-PRODUCT_SYSTEM_DEVICE := OnePlus7TPro
-
 PRODUCT_AAPT_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 PRODUCT_CHARACTERISTICS := nosdcard
@@ -35,7 +32,11 @@ TARGET_SCREEN_WIDTH := 1440
 
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=OnePlus7TPro \
-    TARGET_NAME=OnePlus7TPro
+    BuildDesc="OnePlus7TPro-user 11 RKQ1.201022.002 2202120146 release-keys" \
+    BuildFingerprint="OnePlus/OnePlus7TPro/OnePlus7TPro:11/RKQ1.201022.002/2202120146:user/release-keys" \
+    DeviceName=OnePlus7TPro \
+    DeviceProduct=OnePlus7TPro \
+    SystemDevice=OnePlus7TPro \
+    SystemName=OnePlus7TPro
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
